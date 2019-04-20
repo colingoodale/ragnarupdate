@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Freightsans-Bold';
+    src: url('./files/Freight-SansBold.woff') format('woff'),
+         url('./files/Freight-SansBold.woff') format('woff');
+  }
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#DCDCDC;
+    padding-top: 107.5px;
+}
+/*navBar*/
+#mainNav{
+    opacity: 0.85;
+    filter: alpha(opacity=75);
+  
+  }
+.main-container{
+    background-color: rgb(235, 235, 235);
+    width: 90%;
+    height: auto;
+    box-shadow: 10px 10px 20px 20px rgb(156, 156, 156);
+    margin: auto;
+}
+#header-logo{
+    height: auto;
+    width:25%;
+    float: left;
+  }
+img{
+    height: auto;
+    width:50%;
+}
+.capabilities-column{
+    flex: 50%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+  }
+  .capabilities-row{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+  }
+  .capabilities-column{
+    flex: 50%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+  }
+  .capabilities-row-hex{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .cap-img-bord{
+    margin-left: 20px;
+  }
+  .cap-img-hex{
+    height:auto;
+    width: 100px;
+  }
+  .cap-img-bord-card{
+    padding-top: 50px;
+  }
+  .cap-img-hex-card{
+    height:auto;
+    width: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .team-name{
+    font-family: 'Freightsans-Bold', Fallback, sans-serif;
+    font-size: 2.75em;
+    color: #133359
+  }
+  .team-title{
+      font-family: 'Freightsans-Bold', Fallback, sans-serif;
+      font-size: 2.25em;
+      color: #00869D;
+  }
+  p{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .spacer{
+      height: 50%;
+      width: 100%;
+  }
