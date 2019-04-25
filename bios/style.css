@@ -12,14 +12,21 @@
 
 body{
     background-color:#DCDCDC;
-    padding-top: 107.5px;
+    padding-top: 100px;
 }
 /*navBar*/
+/*navBar*/
 #mainNav{
-    opacity: 0.85;
-    filter: alpha(opacity=75);
-  
-  }
+  padding-right: 40px;
+  padding-left: 75px;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+}
+.nav-link{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5em;
+  margin-right: 35px;
+}
 .main-container{
     background-color: rgb(235, 235, 235);
     width: 90%;
@@ -91,4 +98,13 @@ img{
   .spacer{
       height: 50%;
       width: 100%;
+  }
+  button{
+    width: 33.33%;
+      height: 50px;
+      border: none;
+      outline: none;
+      background:59;
+      -webkit-text-fill-color: #00869D;
+      color: #fff;
   }

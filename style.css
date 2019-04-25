@@ -22,7 +22,7 @@ header {
   }
   body{
     background-color:#DCDCDC;
-    padding-top: 132.5px;
+    padding-top: 122.5px;
 }
 footer{
   height: 50px;
@@ -46,10 +46,17 @@ footer{
 
 /*navBar*/
 #mainNav{
-  opacity: 0.85;
-  filter: alpha(opacity=75);
-
+  padding-right: 40px;
+  padding-left: 75px;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
 }
+.nav-link{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: .90em;
+  margin-right: 35px;
+}
+
 /*header*/
 #ragnar-header{
   background-color:59;
@@ -79,18 +86,21 @@ video {
   margin-top: 25px;
 }
 .spacer{
-  height: 300px;
+  height: 150px;
   display: inline-block;
 }
 .spacer2{
-  height: 135px;
+  height: 50px;
   display: inline-block;
 }
 .spacer3{
   height: 40px;
   display: inline-block;
 }
-
+.spacer4{
+  height: 150px;
+  display: inline-block;
+}
 .capabilities-column{
   flex: 50%;
   padding: 10px;
@@ -101,6 +111,11 @@ video {
   width: 100%;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.capabilities-row-hex-carousel{
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .capabilities-row-messy{
   width: 100%;
@@ -154,7 +169,6 @@ video {
   text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
   0px 8px 13px rgba(128,128,128,0.1),
   0px 18px 23px rgba(128,128,128,0.1);
-  margin-top: 15px;
 }
 .cap-exp-title-msg-tag12{
   font-size: 1.25em;
@@ -183,7 +197,6 @@ video {
   text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
   0px 8px 13px rgba(128,128,128,0.1),
   0px 18px 23px rgba(128,128,128,0.1);
-  margin-top: 15px;
 }
 .cap-exp-title-white{
   font-size: 1.25em;
@@ -197,7 +210,6 @@ video {
   text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
   0px 8px 13px rgba(128,128,128,0.1),
   0px 18px 23px rgba(128,128,128,0.1);
-  margin-top: 15px;
 }
 .cap-exp-text-white{
   display: inline-block;
@@ -207,7 +219,19 @@ video {
   text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
   0px 8px 13px rgba(128,128,128,0.1),
   0px 18px 23px rgba(128,128,128,0.1);
-  margin-top: 15px;
+}
+.cap-exp-title-focus{
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #133359;
+  display: inline-block;
+  text-align:center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: 'Freightsans-Bold', Fallback, sans-serif;
+  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
+  0px 8px 13px rgba(128,128,128,0.1),
+  0px 18px 23px rgba(128,128,128,0.1);
 }
 
 .polling-survey{
@@ -263,25 +287,32 @@ video {
 }
 /*Case Studies*/
 .case-study-title{
-  font-size: 1.5em;
-  font-family: 'Freightsans-Bold', Fallback, sans-serif;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #133359;
   text-align: center;
 
 }
 .case-study-img{
   height:auto;
-  width: 100%;
+  width: 50%;
 }
 .case-study-img-perdue{
   height:auto;
-  width: 100%;
-  margin-top: 45px;
-  margin-bottom: 55px;
+  width: 50%;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
 .case-text{
   color: #133359;
   text-align: center;
+}
+.study-text{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 19.2px;
+}
+.study-tag{
+  color: #5b9bd5
 }
 /*Locations*/
 .location-container{
@@ -312,7 +343,7 @@ video {
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
-  font-family: 'Trebuchet', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
   list-style-type: none;
 }
@@ -399,6 +430,7 @@ video {
 }
 .hex p {
   top: 50%;
+  font-size: 19.5px;
   padding-bottom:50%;
   -webkit-transform:translate3d(0,100%,0);
       -ms-transform:translate3d(0,100%,0);
@@ -473,7 +505,7 @@ video {
 .case-text-contact{
   color: #00869D;
   text-align: center;
-  font-size: .75em;
+  font-size: .6em;
 }
 .capabilities-row-contact{
   width: 100%;
@@ -484,10 +516,7 @@ video {
 .contact-heading{
   align-self: middle;
 }
-.formBox{
-	margin-top: 90px;
-	padding: 50px;
-}
+
 .formBox  h1{
 	margin: 0;
 	padding: 0;
@@ -557,4 +586,36 @@ textarea{
   width: 50px;
   float: right;
   margin:5px;
+}
+
+/*Slick*/
+.center{
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+.info-tag{
+  overflow: hidden;
+}
+.slide-img{
+  width: 400px;
+  height: 350px;
+  
+}
+.slide-img{
+  transition: transform .5s;
+  overflow: hidden;
+}
+.slide-img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.infographic-title{
+  font-size: 1.5em;
+  font-family: 'Freightsans-Bold', Fallback, sans-serif;
+  color: white;
+  text-align: center;
+
 }
