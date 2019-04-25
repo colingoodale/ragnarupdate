@@ -314,6 +314,10 @@ video {
 .study-tag{
   color: #5b9bd5
 }
+.study-title{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 32px;
+}
 /*Locations*/
 .location-container{
   margin: 50px;
