@@ -138,3 +138,19 @@ img{
       -webkit-text-fill-color: #00869D;
       color: #fff;
   }
+  .spacer-general{
+    height: 110px;
+    width: 100%;
+  }
+  .spacer-resnick{
+    height: 112.5px;
+    width: 100%;
+  }
+  .spacer-trucois{
+    height: 110px;
+    width: 100%;
+  }
+  .spacer-goodale{
+    height: 117.5px;
+    width: 100%;
+  }
