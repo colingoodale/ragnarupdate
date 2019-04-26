@@ -259,7 +259,11 @@ video {
   background-image: url("./files/Cherry_Blossoms.png");
 }
 .cap-img-bord{
-  margin-left: 20px;
+  width: 40%;
+}
+.cap-img-bord-l{
+  margin-left: 42.5px;
+  width: 40%;
 }
 .cap-img-hex{
   height:auto;
@@ -270,9 +274,9 @@ video {
 }
 .cap-img-hex-card{
   height:auto;
-  width: 75px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .cap-bullet{
   height: auto;
