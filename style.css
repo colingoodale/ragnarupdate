@@ -347,6 +347,8 @@ video {
 .study-text{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 19.2px;
+  padding-left: 50px;
+  padding-right: 20px;
 }
 .study-tag{
   color: #5b9bd5
@@ -644,15 +646,7 @@ textarea{
   height: 350px;
   
 }
-.slide-img{
-  transition: transform .5s;
-  overflow: hidden;
-}
-.slide-img:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
+
 .infographic-title{
   font-size: 1.5em;
   font-family: 'Freightsans-Bold', Fallback, sans-serif;
