@@ -483,13 +483,6 @@ video {
 
 
 /*** HOVER EFFECT  **********************************************************************/
-.hexIn:hover .main-team-img{
-  opacity: 0;
-}
-.hexIn:hover .team-overlay-img{
-  opacity: 1;
-}
-
 .hexLink:hover h1, .hexLink:focus h1{
   -webkit-transform:translate3d(0,7.35%,0);
       -ms-transform:translate3d(0,7.35%,0);
@@ -507,10 +500,10 @@ video {
     padding-bottom: 4.4%
   }
   .hex {
-    width: 20%; /* = 100 / 5 */
+    width: 25%; /* = 100 / 5 */
   }
-  .hex:nth-child(9n+4){ /* first hexagon of even rows */
-    margin-left:10%;  /* = width of .hex / 2  to indent even rows */
+  .hex:nth-child(7n+5){ /* first hexagon of even rows */
+    margin-left:12%;  /* = width of .hex / 2  to indent even rows */
   }
 }
 
