@@ -40,9 +40,6 @@ header {
   }
 }
 @media only screen and (max-width: 768px){
-  html{
-    width: 107.5%;
-  }
   body{
     width: 100%;
     float: right;
@@ -197,7 +194,7 @@ footer{
 @media only screen and (max-width: 768px){
   #mainNav{
     padding-right: 0px;
-    width: 820px;
+    width: 768px;
   }
 }
 .nav-link{

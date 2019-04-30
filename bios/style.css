@@ -81,57 +81,57 @@ body{
 }
 @media only screen and (min-width: 1050px) {
   body{
-    padding-top: 96px;
+    padding-top: 72px;
   }
 }
 @media only screen and (min-width: 1100px) {
   body{
-    padding-top: 98px;
+    padding-top: 74px;
   }
 }
 @media only screen and (min-width: 1150px) {
   body{
-    padding-top: 100px;
+    padding-top: 76px;
   }
 }
 @media only screen and (min-width: 1200px){
   body{
-    padding-top: 102.5px;
+    padding-top: 80px;
   }
 }
 @media only screen and (min-width: 1250px) {
   body{
-    padding-top: 102.5px;
+    padding-top: 82px;
   }
 }
 @media only screen and (min-width: 1260px) {
   body{
-    padding-top: 108px;
+    padding-top: 84px;
   }
 }
 @media only screen and (min-width: 1300) {
   body{
-    padding-top: 110px;
-  }
-}
-@media only screen and (min-width: 1350px) {
-  body{
-    padding-top:112px;
+    padding-top: 88px;
   }
 }
 @media only screen and (min-width: 1400px) {
   body{
-    padding-top: 115px;
+    padding-top: 92px;
   }
 }
-@media only screen and (min-width: 1425px) {
+@media only screen and (min-width: 1438px) {
   body{
-    padding-top: 118px;
+    padding-top: 94px;
+  }
+}
+@media only screen and (min-width: 1460px) {
+  body{
+    padding-top: 98px;
   }
 }
 @media only screen and (min-width: 1500px) {
   body{
-    padding-top: 122.5px;
+    padding-top: 100px;
   }
 }
 /*navBar*/
@@ -141,6 +141,18 @@ body{
   padding-left: 75px;
   opacity: 0.95;
   filter: alpha(opacity=95);
+}
+@media only screen and (max-width: 1024px){
+  #mainNav{
+    padding-left: 0px;
+    padding-right: 10%;
+  }
+}
+@media only screen and (max-width: 768px){
+  #mainNav{
+    padding-right: 0px;
+    width: 820px;
+  }
 }
 .nav-link{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -160,6 +172,19 @@ body{
     box-shadow: 10px 10px 20px 20px rgb(156, 156, 156);
     margin: auto;
 }
+@media only screen and (max-width: 1024px){
+  .main-container{
+    width: 100%;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 768) and (max-height: 1024) and (-webkit-min-device-pixel-ratio: 2) {
+.main-container{
+  width:100%;
+  position: absolute;
+  margin:0;
+}
+}
 #header-logo{
     height: auto;
     width:25%;
@@ -175,10 +200,10 @@ img{
     width: 65%
   }
 }
-@media only screen and (max-width: 1024){
+@media only screen and (min-width: 1024){
   img{
     height: auto;
-    width: 80%;
+    width: 200%;
   }
 }
 .capabilities-column{
