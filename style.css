@@ -22,7 +22,113 @@ header {
   }
   body{
     background-color:#DCDCDC;
+    padding-top: 58px;
+}
+@media only screen and (min-width: 650px) {
+  body{
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  body{
+    padding-top: 65px;
+  }
+}
+@media only screen and (min-width: 750px) {
+  body{
+    padding-top: 70px;
+  }
+}
+@media only screen and (min-width: 830px) {
+  body{
+    padding-top: 74px;
+  }
+}
+@media only screen and (min-width: 860px) {
+  body{
+    padding-top: 78px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body{
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  body{
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 950px) {
+  body{
+    padding-top: 84px;
+  }
+}
+@media only screen and (min-width: 992px){
+  body{
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 1014px) {
+  body{
+    padding-top: 9px;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  body{
+    padding-top: 96px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  body{
+    padding-top: 98px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  body{
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 1200px){
+  body{
+    padding-top: 102.5px;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  body{
+    padding-top: 102.5px;
+  }
+}
+@media only screen and (min-width: 1260px) {
+  body{
+    padding-top: 108px;
+  }
+}
+@media only screen and (min-width: 1300) {
+  body{
+    padding-top: 110px;
+  }
+}
+@media only screen and (min-width: 1350px) {
+  body{
+    padding-top:112px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  body{
+    padding-top: 115px;
+  }
+}
+@media only screen and (min-width: 1425px) {
+  body{
+    padding-top: 118px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  body{
     padding-top: 122.5px;
+  }
 }
 footer{
   height: 50px;
@@ -37,6 +143,19 @@ footer{
     height: auto;
     box-shadow: 10px 10px 20px 20px rgb(156, 156, 156);
     margin: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 1024px){
+    .main-container{
+      width: 100%;
+      margin: 0;
+    }
+}
+@media only screen and (max-width: 768) and (max-height: 1024) and (-webkit-min-device-pixel-ratio: 2) {
+  .main-container{
+    width: 100%;
+  }
 }
 #header-logo{
   height: auto;
@@ -51,6 +170,7 @@ footer{
   opacity: 0.95;
   filter: alpha(opacity=95);
 }
+
 .nav-link{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: .90em;
