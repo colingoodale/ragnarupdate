@@ -39,6 +39,15 @@ header {
     padding-top: 70px;
   }
 }
+@media only screen and (max-width: 768px){
+  html{
+    width: 107.5%;
+  }
+  body{
+    width: 100%;
+    float: right;
+  }
+}
 @media only screen and (min-width: 830px) {
   body{
     padding-top: 74px;
@@ -73,6 +82,11 @@ header {
 @media only screen and (min-width: 1014px) {
   body{
     padding-top: 9px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  body{
+    padding-top: 90px;
   }
 }
 @media only screen and (min-width: 1050px) {
@@ -130,6 +144,7 @@ header {
     padding-top: 122.5px;
   }
 }
+
 footer{
   height: 50px;
 }
@@ -154,9 +169,12 @@ footer{
 }
 @media only screen and (max-width: 768) and (max-height: 1024) and (-webkit-min-device-pixel-ratio: 2) {
   .main-container{
-    width: 100%;
+    width:100%;
+    position: absolute;
+    margin:0;
   }
 }
+
 #header-logo{
   height: auto;
   width:25%;
@@ -165,18 +183,34 @@ footer{
 
 /*navBar*/
 #mainNav{
-  padding-right: 40px;
-  padding-left: 75px;
+  padding-right:3%;
+  padding-left: 5%;
   opacity: 0.95;
   filter: alpha(opacity=95);
 }
-
+@media only screen and (max-width: 1024px){
+  #mainNav{
+    padding-left: 0px;
+    padding-right: 10%;
+  }
+}
+@media only screen and (max-width: 768px){
+  #mainNav{
+    padding-right: 0px;
+    width: 820px;
+  }
+}
 .nav-link{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: .90em;
+  font-size: .9em;
   margin-right: 35px;
 }
-
+@media only screen and (max-width: 1024px){
+  .nav-link{
+    font-size: .7em;
+    margin-right: 10px;
+  }
+}
 /*header*/
 #ragnar-header{
   background-color:59;
@@ -185,6 +219,11 @@ footer{
 .video-container{
   Height:75%;
   width:100%;
+}
+@media only screen and (max-width: 768px){
+  .video-container{
+    margin: 0;
+  }
 }
 video {
   height: auto;
@@ -209,6 +248,7 @@ video {
   height: 150px;
   display: inline-block;
 }
+
 .spacer2{
   height: 50px;
   display: inline-block;
@@ -293,7 +333,8 @@ video {
   font-size: .75em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #133359;
-  padding-right: 60px;
+  padding-right: 20%;
+  padding-left: 20%;
   text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
   0px 8px 13px rgba(128,128,128,0.1),
   0px 18px 23px rgba(128,128,128,0.1);
@@ -497,6 +538,11 @@ video {
   width: 50%;
   margin-top: 35px;
   margin-bottom: 15px;
+}
+@media only screen and (max-width: 768px){
+  .case-study-img-perdue{
+    margin-top: 12.5px;
+  }
 }
 .case-text{
   color: #133359;
@@ -708,6 +754,30 @@ video {
 }
 
 /*Contact*/
+.contact-text{
+  color: #133359;
+  text-align: center;
+  font-size: 32px;
+}@media only screen and (min-width: 1100px){
+  .contact-text{
+    font-size: 32px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .contact-text{
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .not-okc{
+    margin-bottom: 37.5px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .not-okc{
+    margin-bottom: 7.5px;
+  }
+}
 .case-text-contact{
   color: #00869D;
   text-align: center;
@@ -761,7 +831,7 @@ video {
 .focus .inputText{
 	transform: translateY(-30px);
 	font-size: 18px;
-	opacity: 1;
+	opacity: 0;
 	color:59;
 
 }
@@ -809,6 +879,19 @@ textarea{
   height: 350px;
   
 }
+@media only screen and (max-width: 1024px){
+  .slide-img{
+    width: 300px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .slide-img{
+    width: 200px;
+    height: 175px;
+
+  }
+}
 
 .infographic-title{
   font-size: 1.5em;
@@ -816,4 +899,11 @@ textarea{
   color: white;
   text-align: center;
 
+}
+
+/*Adjustment of Col-sm-12: Bootstrap-core*/
+@media only screen and (max-width: 768px) and (min-width: 766px){
+  .col-sm-12{
+    margin-right: 0px;
+  }
 }

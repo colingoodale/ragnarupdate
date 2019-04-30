@@ -14,6 +14,126 @@ body{
     background-color:#DCDCDC;
     padding-top: 100px;
 }
+@media only screen and (min-width: 650px) {
+  body{
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  body{
+    padding-top: 65px;
+  }
+}
+@media only screen and (min-width: 750px) {
+  body{
+    padding-top: 70px;
+  }
+}
+@media only screen and (max-width: 768px){
+  html{
+    width: 107.5%;
+  }
+  body{
+    width: 100%;
+    float: right;
+  }
+}
+@media only screen and (min-width: 830px) {
+  body{
+    padding-top: 74px;
+  }
+}
+@media only screen and (min-width: 860px) {
+  body{
+    padding-top: 78px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body{
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  body{
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 950px) {
+  body{
+    padding-top: 84px;
+  }
+}
+@media only screen and (min-width: 992px){
+  body{
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 1014px) {
+  body{
+    padding-top: 9px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  body{
+    padding-top: 63px;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  body{
+    padding-top: 96px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  body{
+    padding-top: 98px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  body{
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 1200px){
+  body{
+    padding-top: 102.5px;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  body{
+    padding-top: 102.5px;
+  }
+}
+@media only screen and (min-width: 1260px) {
+  body{
+    padding-top: 108px;
+  }
+}
+@media only screen and (min-width: 1300) {
+  body{
+    padding-top: 110px;
+  }
+}
+@media only screen and (min-width: 1350px) {
+  body{
+    padding-top:112px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  body{
+    padding-top: 115px;
+  }
+}
+@media only screen and (min-width: 1425px) {
+  body{
+    padding-top: 118px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  body{
+    padding-top: 122.5px;
+  }
+}
 /*navBar*/
 /*navBar*/
 #mainNav{
@@ -26,6 +146,12 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.5em;
   margin-right: 35px;
+}
+@media only screen and (max-width: 1024px){
+  .nav-link{
+    font-size: .9em;
+    margin-right: 15px;
+  }
 }
 .main-container{
     background-color: rgb(235, 235, 235);
@@ -42,6 +168,18 @@ body{
 img{
     height: auto;
     width:50%;
+}
+@media only screen and (max-width: 1000){
+  img{
+    height: auto;
+    width: 65%
+  }
+}
+@media only screen and (max-width: 1024){
+  img{
+    height: auto;
+    width: 80%;
+  }
 }
 .capabilities-column{
     flex: 50%;
