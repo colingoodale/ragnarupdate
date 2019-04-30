@@ -418,6 +418,11 @@ video {
   margin-left: 2%;
   width: 40%;
 }
+@media only screen and (max-width: 422px){
+  .cap-img-bord{
+    width: 35%;
+  }
+}
 @media only screen and (max-width:644px) {
   .cap-img-bord-l{
     margin-left: 2.5%;
@@ -440,6 +445,8 @@ video {
 @media only screen and (max-width: 422px){
   .cap-img-hex-card{
     width: 25px;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 }
 @media only screen and (max-width: 644px){
@@ -687,10 +694,10 @@ video {
     padding-bottom: 11.2%
   }
   .hex {
-    width: 50%; /* = 100 / 3 */
+    width: 25%; /* = 100 / 3 */
   }
-  .hex:nth-child(3n+3){ /* first hexagon of even rows */
-    margin-left:25%;  /* = width of .hex / 2  to indent even rows */
+  .hex:nth-child(7n+5){ /* first hexagon of even rows */
+    margin-left:12%;  /* = width of .hex / 2  to indent even rows */
   }
 }
 
