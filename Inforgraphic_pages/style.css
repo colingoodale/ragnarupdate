@@ -13,6 +13,21 @@ body{
     font-size: .90em;
     margin-right: 35px;
   }
+  .nav-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    margin-right: 35px;
+  }
+  @media only screen and (max-width: 1066){
+    .nav-link{
+      font-size: 1em;
+    }
+  }
+  @media only screen and (max-width: 1134px){
+    .nav-link{
+      font-size: 1.1em;
+    }
+  }
 .div_container{
     align-content: center;
     height:800px;
