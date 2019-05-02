@@ -909,10 +909,6 @@ textarea{
   width: 100%;
   height: auto;
   padding-bottom: 40px;
-  overflow: hidden;
-}
-.info-tag{
-  overflow: hidden;
 }
 .slide-img{
   width: 400px;
